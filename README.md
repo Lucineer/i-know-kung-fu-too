@@ -1,45 +1,43 @@
 # I Know Kung Fu Too
 
-Training and deployment resources for Microsoft AI and Modern Work, built from field experience.
+You get a field-tested Copilot demo that walks through setting up Microsoft Bookings. It is built from notes taken during actual customer deliveries.
+
+**Live Demo:** [https://i-know-kung-fu-too.casey-digennaro.workers.dev](https://i-know-kung-fu-too.casey-digennaro.workers.dev)
 
 ---
 
-## Overview
+## Why This Exists
+Partners often rebuild the same foundational demo. This version consolidates steps from several real rollouts so you can start from a working point.
 
-This repository provides practical training materials, demo templates, and adoption playbooks for Microsoft's AI and Modern Work stack. It's built from resources that have been tested in actual customer engagements and partner deliveries.
-
-You'll find working examples for Copilot Studio, Azure AI Foundry, Agent Framework, Power Platform, and related Modern Work services.
-
-## What's Here
-
-- **Training Modules**: Session outlines and learning paths
-- **Demo Templates**: Runnable scenarios with sample data
-- **Adoption Playbooks**: Deployment strategies from actual rollouts
-- **Partner Resources**: Delivery checklists and positioning guides
-- **Multilingual Assets**: Translated materials for global deployments
+---
 
 ## Quick Start
-
-1. Fork this repository
-2. Review the `training-modules/` directory for foundational material
-3. Adapt demo templates in `copilot-demos/` for your needs
-4. Use playbooks from `customer-playbooks/` to guide deployments
-
-## Limitations
-
-These materials assume access to Microsoft's commercial platforms and may require adjustment for specific organizational policies or license configurations.
-
-## Attribution
-
-Created by Superinstance & Lucineer (DiGennaro et al.). Part of the Cocapn Fleet.
-
-## License
-
-MIT
+1.  **Fork this repository.** It is the primary setup step.
+2.  Deploy to Cloudflare Workers. No configuration is needed.
+3.  Edit the templates in `copilot-demos/` and `customer-playbooks/` for your own use.
 
 ---
 
-<div>
-  <a href="https://the-fleet.casey-digennaro.workers.dev">The Fleet</a> •
-  <a href="https://cocapn.ai">Cocapn</a>
-</div>
+## What You Get
+- Runnable demo scenarios for Copilot Studio, Azure AI Foundry, and Power Platform.
+- Deployment checklists used in enterprise environments.
+- Training materials that have been translated for global teams.
+- Delivery guides referenced by Microsoft partners.
+- Zero runtime dependencies. The fork is yours and will not break.
+- MIT licensed. Use it without restriction.
+
+---
+
+## How It Works
+This is not a mockup. It runs a full Bookings configuration flow in your browser. You fork it, you own it. There is no hosted platform, API key requirement, or telemetry.
+
+All content is static and served via Cloudflare Workers. Your forked branch updates your live site. There are no build steps or servers to maintain.
+
+---
+
+## Limitations
+The demo assumes you have valid access to Microsoft commercial platforms. Specifically, it is configured for a Microsoft 365 Business Standard license; other plans may require adjustment. The provided checklists may not cover every organization's unique security policy.
+
+---
+
+<div style="text-align:center;padding:16px;color:#64748b;font-size:.8rem"><a href="https://the-fleet.casey-digennaro.workers.dev" style="color:#64748b">The Fleet</a> &middot; <a href="https://cocapn.ai" style="color:#64748b">Cocapn</a></div>
